@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+#container-01{
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.left-side{
+    float: left;
+    margin-top: 15px;
+}
+
+nav .left-side li a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(232, 241, 198);
+    font-size: 25px;
+    pointer-events: none;
+}
+
+nav .right-side li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+nav .left-side li{
+    list-style: none;
+}
+
+.right-side{
+    float: right;
+    margin-top: 15px;
+}
+
+nav .right-side li{
+    display: inline-block;
+}
+
+nav .right-side li a{
+    text-decoration: none;
+    margin: 12px;
+    font-size: 25px;
+    color: rgb(232, 241, 198);
+}
+
+
+
+#text-box{
+    position: relative;
+    top: 200px;
+    margin-left: 50px; ;
+}
+.text-01{
+    font-size: 60px;
+    color: white;
+    line-height: 1.4;
+}
+
+
+.bg-02{
+    position: relative;
+
+}
+
+
+/***container-02 styling. this page only has a background**/
+#container-02{
+    height: 100vh;
+}
+
+.bg-02{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/***container02-1. skills page**/
+
+
+#container02-1{
+    height: 100vh;
+}
+.skill-img-02{
+    width: 130px;
+    height: 130px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+
+#html-logo:hover{
+    background-color: orange;
+    border-radius: 50px 50px 50px 50px;    
+}
+#javascript-logo:hover{
+    background-color: yellow;
+    border-radius: 50px 50px 50px 50px;   
+}
+
+#bootstrap-logo:hover{
+    background-color: purple;
+    border-radius: 60px 60px 60px 60px;   
+}
+
+#css-logo:hover{
+background-color: orange;
+border-radius: 50px 50px 50px 50px; 
+}
+
+#git-logo:hover{
+    background-color: orangered;
+    border-radius: 50px 50px 50px 50px;   
+}
+
+#sql-logo:hover{
+    background-color: skyblue;
+    border-radius: 50px 50px 50px 50px;   
+}
+
+.ul-02{
+    text-align: center;
+    justify-content: center;
+    margin: 70px;
+}
+
+.ul-02 li{
+    list-style: none;
+}
+
+.skills02{
+    padding: 12px;
+    font-size: 60px;
+}
+
+
+
+/***container03. projects page**/
+
+
+
+#container03{
+    height: 80vh;
+}
+.project-03{
+    width: 350px;
+    height: 350px;
+    border: solid 20px black;
+    margin: 12px;
+    cursor: pointer;
+    opacity: 0.50;
+}
+
+.ul-03 li{
+    align-items: center;
+    text-align: center;
+}
+
+.pro-03{
+    padding: 12px;
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+.project-03:hover{
+    opacity: 5;
+    width: 400px;
+    height: 400px;
+}
+
+#project-bar{
+    border: solid black;
+    background-color: black;
+}
+
+
+/***container04. about me page**/
+
+#container-04{
+    height: 100vh;
+    display: grid 1fr 3fr;
+    background-color: black;
+    color: white;
+}
+
+.about-me{
+    position: relative;
+    bottom: 0px;
+    margin: 30px;
+    padding: 30px;
+    display: inline-block;
+}
+
+.about-me-text{
+    line-height: 2;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.form-fill-out{
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    padding-top: 30px;
+    position: relative;
+    top: 80px;
+}
+
+.email-input{
+    width: 350px;
+    border: solid white;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+}
+
+.name-input{
+    width: 350px;
+    border: solid white;
+    background-color: black;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.email-div{
+   position: relative;
+   left: 0px;
+   margin: 10px;
+}
+
+
+.submit-btn{
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+
+}
+
+.freeform{
+    border: solid white;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+
+/***container 5 styling***/
+#container-05{
+    height: 70vh;
+    background-image: url(images/atlanta.jpg);
+    background-repeat: no;
+    background-size: cover;
+}
+
+
+.ping-marker{
+    width: 70px;
+    height: 70px;
+}
+
+.ping{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    cursor: pointer;
+}
+
+.ping-marker:hover{
+    width: 95px;
+    height: 95px;
+}

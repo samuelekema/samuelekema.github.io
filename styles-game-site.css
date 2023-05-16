@@ -1,0 +1,458 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+.logo{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.name{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+nav ul{
+    list-style: none;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    cursor: pointer;
+    
+}
+
+
+.stream:hover{
+    border: solid;
+    background-color: orangered;
+    border-radius: 4px 4px 4px 4px;
+    
+}
+
+.videos:hover{
+    border: solid;
+    background-color: orangered;
+    border-radius: 4px 4px 4px 4px;
+    
+}
+
+.merch:hover{
+    border: solid;
+    background-color: orangered;
+    border-radius: 4px 4px 4px 4px;
+    
+}
+
+.support:hover{
+    border: solid;
+    background-color: orangered;
+    border-radius: 4px 4px 4px 4px;
+    
+}
+
+.blog:hover{
+    border: solid;
+    background-color: orangered;
+    border-radius: 4px 4px 4px 4px;  
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    margin: 10px;
+}
+
+.god_of_war_img{
+    float: right;
+    height: 300px;
+    width:35rem ;
+}
+
+.gow{
+    width: 35rem;
+    height: 300px;
+    position: relative;
+    bottom: 250px;
+}
+
+.release{
+    font-size: 15px;
+}
+
+.winner{
+    position: relative;
+    top: 70px;
+    left: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+.pg1_btn{
+    border-radius: 20px 20px 20px 20px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: 1s ;
+    
+}
+
+
+.pg1_btn:hover{
+    background-color: rgb(109, 31, 3);
+    color: white;
+
+}
+
+.border{
+    width: 80rem;
+    height: 5rem;
+    background-color: gray;
+    position: absolute;
+    bottom: 3px;
+    font-weight: bolder;
+    padding: 12px;
+}
+
+.source{
+    display:block;
+    float: right;
+    margin: 10px;
+    right: 35px;
+    position: relative;
+    bottom: 12px;
+
+}
+
+
+.horizone_img{
+    width: 38rem;
+    height: 310px;
+    position: relative;
+    top: 235px;
+    left: 100px;
+    padding: 12px;
+}
+
+
+.schedule{
+    float: right;
+    position: relative;
+    bottom: 75px;
+    right: 78px;
+    line-height: 2;
+}
+
+.full_schedule_btn{
+    border-radius: 20px 20px 20px 20px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    margin: 12px;
+    background-color: orangered;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: 1s    
+}
+
+.full_schedule_btn:hover{
+    background-color: rgb(109, 31, 3);
+    color: white;
+}
+
+
+.upcoming{
+    line-height: 1.5;
+}
+
+
+
+.feature{
+    position: relative;
+    top: 300px;
+    text-align: center;
+    left: 70px;
+}
+
+
+.row2{
+    position: relative;
+    top: 300px;
+    left: 100px;
+
+}
+
+.row1{
+    position: relative;
+    top: 235px;
+    left: 100px;
+}
+
+
+
+.shop{
+    position: relative;
+    top: 320px;
+    text-align: center;
+}
+
+.shirt1{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 400px;
+    left: 600px;
+    cursor: pointer;
+}
+
+.shirt2{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 400px;
+    cursor: pointer;
+    right: 100px;
+
+}
+
+.quest{
+    position: relative;
+    top: 400px;
+}
+
+.exc_img{
+    width: 35rem;
+    height: 310px;
+    float: right;
+    position: relative;
+    bottom: 150px;
+    margin: 12px;
+
+}
+
+.outro_txt{
+    padding: 20px;
+    position: relative;
+    margin: 20px;
+    word-spacing: 1;
+    top: 200px;
+    
+}
+
+
+.exclusice_btn{
+    border-radius: 20px 20px 20px 20px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    margin: 12px;
+    background-color: orangered;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: 1s    
+}
+.exclusice_btn:hover{
+    background-color: rgb(109, 31, 3);
+    color: white;
+}
+
+
+
+.explore{
+    position: relative;
+    top: 805px;
+    left: 40px;
+    
+}
+
+
+.explore ul{
+    list-style: none;
+    line-height: 2;
+}
+
+.exp:hover  {
+    text-decoration: orangered underline;
+    cursor: pointer;
+}
+
+.sup:hover  {
+    text-decoration: orangered underline;
+    cursor: pointer;
+}
+
+.fan{
+    display: inline-block;
+}
+
+.explore{
+    display: inline-block;
+}
+
+.menu-button{
+    width: 25px;
+    height: 25px;
+    float: right;
+    opacity: 0;
+}
+
+.menu-button:hover{
+    background-color: orangered;
+}
+
+.stay{
+    position: relative;
+    left: 370px;
+    bottom: 360px;
+}
+
+.email{
+    position: relative;
+    left: 370px;
+    bottom: 350px;
+}
+   
+
+.email_btn{
+    position: relative;
+    left: 200px;
+    bottom: 290px;
+    border-radius: 20px 20px 20px 20px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    margin: 12px;
+    background-color: orangered;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: 1s    
+}
+
+.email_btn:hover{
+    background-color: rgb(109, 31, 3);
+    color: white;
+}
+
+
+.follow{
+    position: relative;
+    left: 900px;
+    bottom: 480px;     
+}
+
+
+.twitch{
+    cursor: pointer;
+}
+
+.youtube{
+    cursor: pointer;
+}
+
+.ig{
+    cursor: pointer;
+}
+nav li {
+    list-style: none;
+    margin: 12px;
+}
+
+
+
+
+
+
+
+/***IPHONE SE DISPLAY****/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+    .name{
+        position: absolute;
+        top: 0;
+        left: 0x;
+        font-size: 20px;
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    nav ul li a{
+        display: none;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .menu-button{
+        opacity: 2;
+        position: absolute;
+        top: 0;
+        right: 60px;
+        margin-top: 8px;
+    }
+
+    
+    .release{
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    }
+    .winner{
+        position: relative;
+        top: 40px;
+        left: 20px;
+        padding: 10px;
+        font-size: 25px;
+    }
+    .winner_h{
+        font-size: 30px;
+    }
+    .gow{
+        width: 250px;
+        height: 200px;
+        position: absolute;
+        bottom: 185px;
+        left: 50px;
+    }
+    .pg1_btn{
+        border-radius: 20px 20px 20px 20px;
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        top: 420px;
+        left: 50px;
+    }
+
+    .text{
+       position: relative;
+       bottom: 10px;
+    }
+}

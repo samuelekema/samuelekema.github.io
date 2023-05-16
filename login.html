@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div id="login-form">
+            <div class="profile-picture=">
+                <img class="profile-picture-img" src="images/profile-picture.png" alt="icon">
+            </div>
+            <div class="login-credentials">
+                <form class="form-control">
+                    <input type="text" name="username" id="username-field" class="login-form-field" placeholder="username"><br>
+                    <input type="password" name="password" id="password-field" class="login-form-field" placeholder="password">
+                </form>
+                <div class="p-text">
+                    <p>Log on to: US.WAL-MART.COM</p>
+                </div>
+                <div class="associate-type">
+                    <label for="associate-type" class="associate-label">Associate Type</label><br>
+                    <select name="associate-type" class="associate-type" form="form-control">
+                        <option value="home-store">Home Store</option>
+                        <option value="visiting-store">Visiting Store</option>
+                        <option value="home-office-associate">Home-Office-Associate</option>
+                    </select>
+                </div>
+                <form class="form-control">
+                    <input type="submit" value="Login" id="login-form-submit">
+                </form>
+                <div id="login-error-msg-holder">
+                    <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="js.js"></script>
+</html>

@@ -1,0 +1,367 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "amatic sc";
+    background-color: grey
+
+
+}
+
+.location{
+    text-decoration: underline;
+}
+
+
+.header{
+    width: 100%;
+    height: 1%;
+    padding: 12px;
+    background-color: rgb(198, 195, 195);
+}
+
+.body{
+    border: solid black;
+    height: 500px;
+    padding: 20px;
+    background-image: url(images/bakery-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.name{
+    position: absolute;
+    left: 0;
+    bottom: 80%;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.cart_btn{
+    position: absolute;
+    right: 0;
+    top: 6%;
+    width: 115px;
+    height: 35px;
+    vertical-align: middle;
+    margin: 0 auto;
+    background-color: black;
+    line-height: 0px;
+    font-weight: bolder;
+}
+
+.cart_btn:hover{
+    opacity: .5;
+    transition: .3sec;
+}
+
+.cart{
+    color: white;
+}
+
+nav{
+    position: relative;
+    left: 150px;
+    display: inline-block;
+}
+
+ul{
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+    padding: 8px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: rgb(41, 39, 39);
+    border: solid rgb(21, 21, 21);
+    background-color: rgb(41, 39, 39);
+    color: white;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+     color: black;
+}
+
+
+
+.philosophy_img{
+    width: 200px;
+    height: 200px;
+    mix-blend-mode: multiply;
+}
+
+.float_bread{
+    position: absolute;
+    right: 0;
+    top: 80%;
+}
+
+.philosphy{
+    float: left;
+}
+
+
+/***
+second page
+**/
+
+
+
+.country_loaf{
+    width: 200px;
+    height: 200px;
+}
+
+
+.cinnamon_bun{
+    width: 200px;
+    height: 200px;
+}
+
+.box1{
+    font-size: 25px;
+    font-weight: bolder;
+    width: 230px;
+    height: 240px;
+    border: solid white;
+    display: inline-block;
+    position:relative;
+    bottom: 171px;
+    
+}
+
+.container2{
+    padding: 12px;
+    background-color: rgb(99, 100, 100);
+}
+
+.box2{
+    font-size: 25px;
+    font-weight: bolder;
+    width: 200px;
+    height: 300px;
+    border: solid white;
+    position: relative;
+    left: 2px;
+    bottom: 0;
+    display: inline-block;
+}
+
+button{
+    cursor:pointer;
+    font-family: 'amatic sc';
+    font-size: 20px;
+    
+}
+
+.box3{
+    font-size: 25px;
+    font-weight: bolder;
+    width: 230px;
+    height: 300px;
+    border: solid white;
+    position: relative;
+    left: 8px;
+    bottom: 0;
+    display: inline-block;
+}
+
+.box4{
+    font-size: 25px;
+    font-weight: bolder;
+    width: 230px;
+    height: 300px;
+    border: solid white;
+    position: relative;
+    left: 12px;
+    bottom: 0;
+    display: inline-block;
+}
+.cinnamon_rolls{
+    width: 230px;
+    height: 200px;
+}
+
+.cheff_img{
+    width: 230px;
+    height: 310px;
+}
+
+.cheff{
+    font-size: 25px;
+    font-weight: bolder;
+    width: 230px;
+    height: 300px;
+    position: relative;
+    left: 16px;
+    bottom: 80px;
+    display: inline-block;
+    opacity: 3;
+}
+
+.order_now_btn{
+    width: 130px;
+    height: 35px;
+    vertical-align: middle;
+    margin: 0 auto;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
+    line-height: 0px;
+    font-weight: bolder;
+}
+
+.order_now_btn:hover{
+    opacity: .5;
+    transition: .3sec;
+}
+
+.order_now{
+    color: white;
+}
+
+
+/***
+page3
+**/
+
+
+.page3{
+    text-align: center;
+}
+.bread_balance_img{
+    width: 70%;
+    height: 500px;
+
+}
+
+.note{
+    font-weight: bolder;
+    font-size: 50px;
+    position: relative;
+    bottom: 70px;
+}
+
+
+.blog_page{
+    position: relative;
+    width: 300px;
+    height:200px;
+    left: 72%;
+    bottom: 165px;
+}
+
+.blog{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.learn_more_btn{
+    width: 130px;
+    height: 35px;
+    vertical-align: middle;
+    margin: 0 auto;
+    background-color: black;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.learn_more_btn:hover{
+    opacity: .5;
+    transition: .3sec;
+}
+
+.learn_more{
+    color: white;
+    line-height: 1px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+/***
+last page
+***/
+
+.instagram{
+    width: 20px;
+    height: 20px;
+    mix-blend-mode: multiply;
+}
+
+.facebook{
+    width: 20px;
+    height: 20px;
+}
+
+.twitter{
+    width: 20px;
+    height: 20px;
+}
+
+.phone{
+    width: 20px;
+    height: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+
+ul li a{
+    position: relative;
+    left: 0;
+    padding: 10px;
+}
+
+label{
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.address_contact{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.submit{
+    width: 130px;
+    height: 30px;
+    vertical-align: middle;
+    margin: 0 auto;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
+    line-height: 5px;
+    color: white;
+    font-family: 'amatic sc';
+}
+.submit:hover{
+    opacity: .5;
+    transition: .3sec;
+}
+
+.map{
+    display: block;
+    position: relative;
+    right: 0;
+}
+
+
+.location{
+    cursor: pointer;
+}
+
+.location:hover{
+    text-decoration: underline;
+    border: solid black;
+    color: white;
+}

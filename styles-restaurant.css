@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin-left: 4px;
+    color: white;
+
+}
+
+
+html{
+    overflow-y: hidden;
+    background-color: black;
+    
+}
+#card-1{
+}
+
+.menu-button-img{
+    width: 25px;
+    height: 25px; 
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    left: 980px;
+    cursor: pointer;
+    opacity: 0;
+}
+#left-side-nav{
+    display: inline-block;
+    margin: 20px;
+}
+
+.right-side-nav-icons{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin: 0 13px 0;
+}
+
+
+#login-btn{
+    margin: 12px;
+    border-radius: 12px 12px 12px 12px;
+    width: 100px;
+    height: 25px;
+    background: linear-gradient(to left, rgb(117, 116, 116) 50%, orangered 50%) right;
+    background-size: 200%;
+    cursor: pointer;
+    transition: .5s all ease-out;
+}
+#login-btn:hover{
+    background-position: left;
+}
+
+#login-icon{
+    position: relative;
+    left: 20px;
+}
+
+
+#right-side-nav{
+    float: right;
+}
+
+.btn-01{
+    cursor: pointer;
+    border-radius: 15px 15px 15px 15px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(125, 120, 120);
+}
+
+.btn-01:hover{
+    background-color: orangered;
+}
+
+#center-nav li{
+    display: inline-block; 
+    cursor: pointer;
+    margin: 12px;
+}
+
+#center-nav{
+    position:relative;
+    left: 400px;
+    display: inline;
+  
+}
+
+#center-nav li:hover{
+    text-decoration: orangered underline;
+
+}
+
+.testy-btn{
+    margin-top:  15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 15px 15px 15px 15px;
+    height: 30px;
+    width: 150px;
+    border: solid orangered;
+    background: linear-gradient(to left, rgb(117, 116, 116) 50%, orangered 50%) right;
+    background-size: 200%;
+    transition: .5s all ease-out;
+}
+
+.testy-btn:hover{
+    background-position: left;
+}
+
+
+#ratings{
+    margin-left: 12px;
+}
+
+td{
+    margin-left: 12px;
+
+}
+
+#stats-table{
+    color: orangered;
+}
+
+
+
+
+.offer-body{
+    margin-top: 12px;
+    margin-bottom: 35px;
+}
+
+#menu-btn a{
+    text-decoration: none;
+
+}
+
+
+#menu-btn{
+margin-bottom: 28px;
+}
+
+#see-menu-btn{
+    margin-left: 12px;
+}
+
+.box-img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+
+.cart-bottom-img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 6px;
+    mix-blend-mode:hard-light;
+    
+}
+
+.bottom-btn{
+    cursor: pointer;
+    border-radius: 15px 15px 15px 15px;
+    height: 25px;
+    width: 80px;
+    color: white;
+    background: linear-gradient(to left, grey 50%, orangered 50%) right;
+    background-size: 200%;
+    transition: .6s all ease-out;
+    border: solid white;
+}
+
+.bottom-btn:hover{
+    background-position: left;
+    
+}
+
+#box-card-01{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 30px;
+    border: solid rgb(255, 251, 251);
+    background-color: rgb(23, 22, 22);
+    border-radius: 20px
+}
+
+#box-card-02{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 30px;
+    border: solid rgb(255, 251, 251);
+    background-color: rgb(23, 22, 22);
+    border-radius: 20px
+}
+
+#box-card-03{
+    display: inline-block;
+    margin-top: 25px;
+    border: solid rgb(255, 251, 251);
+    background-color: rgb(23, 22, 22);
+    border-radius: 20px
+
+}
+
+#right-page{
+    float: right;
+    height: 0px;
+    
+}
+
+.cheff{
+    position: relative;
+    bottom: 80vh;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+/****media queries***/
